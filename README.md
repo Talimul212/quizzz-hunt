@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- first step -->
+I set up a header .Where four tittle ber and one  logo type text.
+<!-- second step  -->
+I set thoses title bar in React Router.
+ <!--third step  -->
+ then i set Home  ber api by loader react-router-dom 
+ <!-- fourth step -->
+ I set some components in src file and  create there css file 
