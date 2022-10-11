@@ -2,7 +2,8 @@
 import Options from '../Options/Options';
 import './Question.css'
 import { EyeIcon } from '@heroicons/react/24/solid'
-const Question = ({ questions }) => {
+const Question = ({ questions, quizName }) => {
+
     const { question, correctAnswer, options } = questions;
     const handlerRealAns = () => {
         // console.log("hjfgjkfgj")

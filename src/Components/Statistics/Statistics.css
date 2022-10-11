@@ -1,0 +1,10 @@
+.statistics {
+    text-align: center;
+    font-size: 25px;
+}
+
+.statistics-barchart {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
