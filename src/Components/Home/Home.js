@@ -4,6 +4,7 @@ import Cart from '../Cart/Cart';
 import './Home.css'
 const Home = () => {
     const quizList = useLoaderData();
+    
     return (
         <div>
             <div className='heading'>
