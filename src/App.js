@@ -5,7 +5,6 @@ import './layOuts/Main'
 import Main from './layOuts/Main';
 import Blog from './Components/Blog/Blog';
 import Statistics from './Components/Statistics/Statistics';
-
 import Quiz from './Components/Quiz/Quiz';
 function App() {
   const router = createBrowserRouter([
