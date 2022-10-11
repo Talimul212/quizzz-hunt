@@ -9,6 +9,7 @@ import Quiz from './Components/Quiz/Quiz';
 import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
 function App() {
+  // React Router ==========================================
   const router = createBrowserRouter([
     {
       path: '/',
@@ -49,6 +50,7 @@ function App() {
   return (
     <div>
       <RouterProvider router={router}></RouterProvider>
+      {/* footer---part============================================== */}
       <Footer></Footer>
     </div>
   );
