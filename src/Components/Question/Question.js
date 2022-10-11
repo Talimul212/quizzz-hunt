@@ -2,10 +2,8 @@
 import Options from '../Options/Options';
 import './Question.css'
 import { EyeIcon } from '@heroicons/react/24/solid'
-import { useState } from 'react';
 const Question = ({ questions }) => {
     const id = questions.id;
-    const [shown, setShown] = useState(false)
     const { question, correctAnswer, options } = questions;
     const handlerRealAns = () => {
         alert(`Answer: ${correctAnswer}`);

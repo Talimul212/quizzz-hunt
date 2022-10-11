@@ -14,6 +14,7 @@
     font-size: 17px;
     margin-left: 36px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .header a:hover {
@@ -22,14 +23,16 @@
 
 @media screen and (max-width:700px) {
     .header a {
-        display: none;
+        font-size: 15px;
+        margin-left: 8px;
+
     }
 
     .header h1 {
         color: white;
-        width: 300px;
-        font-size: xx-large;
-        margin-left: -40px;
+        width: 100px;
+        font-size: large;
+        margin-left: -100px;
     }
 
     .header h1:hover {

@@ -68,11 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-<!-- first step -->
+
+#first step -1
 I set up a header .Where four tittle ber and one  logo type text.
-<!-- second step  -->
+#second step -2
 I set thoses title bar in React Router.
- <!--third step  -->
+ #third step-3 
  then i set Home  ber api by loader react-router-dom 
- <!-- fourth step -->
+  #fourth step -4:
  I set some components in src file and  create there css file 
+ #5--
+ I add  statistics file and the quiz chart
+ #6--
+ Then add blog link and three Questions and there answer
+ #7----
+In Home page the start button i link it Quiz file and showing the quiz details
+#8---
+add question and option this two file and there css file

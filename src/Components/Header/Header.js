@@ -20,6 +20,9 @@ const Header = () => {
                 } to="/statistics">Statistics</NavLink>
                 <NavLink style={({ isActive }) =>
                     isActive ? activeStyle : undefined
+                } to="/about">About</NavLink>
+                <NavLink style={({ isActive }) =>
+                    isActive ? activeStyle : undefined
                 } to="/blog">Blog</NavLink>
             </div>
         </nav>
