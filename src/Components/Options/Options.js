@@ -5,19 +5,19 @@ const Options = ({ options, handlerUserAns }) => {
         <div>
             <div className='options-container'>
                 <div className='options-item'>
-                    <input onClick={() => handlerUserAns()} type="radio" id="blue"></input>
-                    <p>{options[0]}</p>
+                    <input onClick={() => handlerUserAns()} type="radio" id="blue" />
+                    <p> {options[0]}</p>
                 </div>
                 <div className='options-item'>
-                    <input onClick={() => handlerUserAns()} type="radio" id="blue"></input>
+                    <input onClick={() => handlerUserAns()} type="radio" id="blue" />
                     <p>{options[1]}</p>
                 </div>
                 <div className='options-item'>
-                    <input onClick={() => handlerUserAns()} type="radio" id="blue"></input>
+                    <input onClick={() => handlerUserAns()} type="radio" id="blue" />
                     <p>{options[2]}</p>
                 </div>
                 <div className='options-item'>
-                    <input onClick={() => handlerUserAns()} type="radio" id="blue"></input>
+                    <input onClick={() => handlerUserAns()} type="radio" id="blue" />
                     <p>{options[3]}</p>
                 </div>
             </div>
