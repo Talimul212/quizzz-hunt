@@ -1,0 +1,21 @@
+.question-container {
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.quesxtion-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.question-container h3 {
+    text-align: center;
+}
+
+.icon {
+    width: 25px;
+
+}

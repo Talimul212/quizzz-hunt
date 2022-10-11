@@ -20,3 +20,7 @@
     font-weight: 700;
     font-size: medium;
 }
+
+.cart-item a {
+    text-decoration: none;
+}
