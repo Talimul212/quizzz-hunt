@@ -2,47 +2,21 @@
 import Options from '../Options/Options';
 import './Question.css'
 import { EyeIcon } from '@heroicons/react/24/solid'
-const Question = ({ questions, quizName }) => {
-
+import { useState } from 'react';
+const Question = ({ questions }) => {
+    const id = questions.id;
+    const [shown, setShown] = useState(false)
     const { question, correctAnswer, options } = questions;
     const handlerRealAns = () => {
-        // console.log("hjfgjkfgj")
         alert(`Answer: ${correctAnswer}`);
     }
-    const handlerUserAns = () => {
-        // console.log(options.toString());
-        const userAns0 = options[0].toString().length;
-        const userAns1 = options[1].toString().length;
-        const userAns2 = options[2].toString().length;
-        const userAns3 = options[3].toString().length;
-        const realAns = correctAnswer.length;
-        // if (userAns1 === realAns.length) {
-        //     alert('fhslkfgjlsd')
-        // }
-        // else {
-        //     alert('nnot correct')
-        // }
-        console.log(userAns0, userAns1, userAns2, userAns3);
-        if (userAns0 === realAns) {
-            alert("It is correct Answer")
-            console.log(userAns0, realAns);
-        }
-        else if (userAns1 !== realAns) {
-            alert("It is correct Answer")
-            console.log(userAns1, realAns);
-        }
-        else if (userAns2 !== realAns) {
-            alert("It is correct Answer")
-            console.log(userAns2, realAns);
-        }
-        else if (userAns3 !== realAns) {
-            alert("It is correct Answer")
-            console.log(userAns3, realAns);
+    const handlerUserAns = (ans) => {
+        if (correctAnswer === ans) {
+            alert(" Correct Answer")
         }
         else {
-            alert("Not Correct Answer ")
+            alert("Not correct Answer")
         }
-
     }
     return (
         <div className='question-container'>
@@ -51,8 +25,11 @@ const Question = ({ questions, quizName }) => {
                 <h3>Quiz:{question}</h3>
                 <EyeIcon onClick={() => handlerRealAns()} className='icon' />
             </div>
-            <section>
-                <Options handlerUserAns={handlerUserAns} options={options}></Options>
+            <section className='option-container'>
+                {
+                    options.map(option => <Options id={id} handlerUserAns={handlerUserAns} option={option}></Options>)
+                }
+
             </section>
         </div >
     );
